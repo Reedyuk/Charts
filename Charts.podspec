@@ -10,8 +10,5 @@ Pod::Spec.new do |s|
   s.source = { :git => "https://github.com/Reedyuk/Charts.git" }
   s.default_subspec = "Core"
 
-  s.subspec "Core" do |ss|
-    ss.source_files  = "Source/Charts/**/*.swift"
-  end
 
 end
