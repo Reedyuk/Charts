@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.default_subspec = "Core"
   
   s.subspec "Core" do |ss|		    
-    ss.source_files  = "Source/Charts/**/*.swift"		      
+    ss.source_files  = "Charts/**/*.swift"		      
   end
 
 end
